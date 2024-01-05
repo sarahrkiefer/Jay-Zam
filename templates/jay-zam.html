@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+    <head>
+        <title>Jay_Zam class = "header"</title>
+        <link rel = "stylesheet" href = "{{url_for('static', filename='css/jay-zam.css')}}"/>
+    </head>
+    <body>
+        <img id="background" src="{{url_for('static', filename='images/background.png')}}" width = '1500'/>
+        <div class="stuff-container">
+            <div class="toolbar-container">
+                <a href='#'class="title">Jay-Zam</a>
+                <a href='#'class="tools">Tools</a>
+            </div>
+            <a href='#' class="userMessage">Tap to identify music</a>
+            <div class = "musicButton">
+                <img class="musicIcon" src= "{{url_for('static', filename='images/music-icon.png')}}" width='275' height='275'/>
+            </div>
+        </div>
+        <script src="{{url_for('static', filename='scripts/jay-zam.js')}}"></script>
+    </body>
+</html>

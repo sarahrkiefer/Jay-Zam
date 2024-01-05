@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.toolbar-container {
+    background-color: paleturquoise;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title {
+    margin-left: 40px;
+    font-size: 60px;
+    color: rgb(123, 106, 209);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: wavy;
+    text-shadow: 2px 2px 8px cornflowerblue;
+}
+.tools {
+    margin-right: 60px;
+    font-size: 40px;
+    color: rgb(115, 98, 198);
+    font-family: Georgia;
+    text-decoration: wavy;
+}
+.stuff-container {
+    position: relative;
+    z-index: 1;
+}
+#background {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: .6;
+}
+.musicButton {
+    text-align: center;
+    margin: auto;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
